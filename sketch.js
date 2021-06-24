@@ -93,7 +93,7 @@ function preload(){
 
 function setup(){
 
-  createCanvas(windowWidth/2,windowHeight/2);
+  createCanvas(displayWidth,displayHeight);
  
   gadagroup = createGroup();
   monstergroup = createGroup();
